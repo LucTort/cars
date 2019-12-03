@@ -30,7 +30,7 @@ case $inputCommand in
 		carData="$year:$make:$model"
 		echo "Your car data is $carData"
 
-		echo $carData >> My_old_cars
+		echo "$carData" >> My_old_cars
 
 		echo ""
 		;;
